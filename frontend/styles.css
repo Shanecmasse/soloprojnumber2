@@ -1,0 +1,39 @@
+header {
+    background-color: cadetblue;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    padding-right:15px;
+    width: 100px;
+    height: 100px;
+}
+header h1 {
+    font-weight: bold;
+    color: black;
+}
+
+.content {
+    display: flex;
+}
+
+.content .sidebar {
+    max-width: 500px;
+    padding: 30px 70px;
+    background-color: beige;
+}
+
+.content .displayedPage {
+    width: 65%;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    margin: 20px;
+}
+
